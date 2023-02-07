@@ -3,15 +3,13 @@
 const person = {
   name: "George",
   age: 29,
-  tellNameAndAge() {
-    alert(`My name is ${this.name} and I am ${this.age} years old.`);
-  },
+  tellNameAndAge: () => {
+    alert(`name: ${person.name}, age: ${person.age}`);
+    console.log(`${person.name}, ${person.age}`)
+  }
 }
 
 person.tellNameAndAge();
-console.log(`${person.name}, ${person.age}`);
-
-
 
 
 

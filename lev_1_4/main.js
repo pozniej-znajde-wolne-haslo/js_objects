@@ -17,21 +17,19 @@ let unsereHaustiere = [
       "Droopy"
     ]
   },
-  /*  function changeName (i, newName) {
-    return this[1].names[i] = newName;
-  } */
+  {
+    changeName: (i, newName) => {
+      unsereHaustiere[1].names[i] = newName;
+    }
+  }
 ];
 
-console.log(unsereHaustiere[0].names[1]);
-console.log(unsereHaustiere[1].names[2]);
+console.log(unsereHaustiere[0].names[1]); // Nala
+console.log(unsereHaustiere[1].names[2]); // Droopy
 
-function changeName (i, newName) {
-  return unsereHaustiere[1].names[i] = newName;
-}
-
-changeName(0, "Thunder");
-changeName(1, "Mellow");
-changeName(2, "Yeti");
+unsereHaustiere[2].changeName(0, "Thunder");
+unsereHaustiere[2].changeName(1, "Mellow");
+unsereHaustiere[2].changeName(2, "Yeti");
 console.log(unsereHaustiere);
 
 

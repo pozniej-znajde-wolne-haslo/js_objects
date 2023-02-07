@@ -35,6 +35,14 @@ myMusic.push({});
 /* myMusic[4]. */
 console.log(myMusic);
 
+console.log(myMusic[0].kunstler)
+console.log(myMusic[1].formate[3])
+console.log(myMusic[1].gold)
+console.log(myMusic[2].release_jahr,myMusic[3].release_jahr)
+console.log(myMusic[3].formate[2])
+console.log(myMusic[3].title.slice(17,21))
+console.log(myMusic[2].title.slice(13,15))
+console.log(myMusic[1].kunstler.slice(5,10))
 
 
 
