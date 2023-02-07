@@ -24,10 +24,10 @@ let studentData = [
 ];
 
 studentData.forEach ((info) => {
-  console.log(`name: ${info.name}`)
-  console.log(`coop: ${info.coop}`)
-  console.log(`city: ${info.address.city}`)
-  console.log(`emails: ${info.emails}`)
+  console.log(`name: ${info.name}`);
+  console.log(`coop: ${info.coop}`);
+  console.log(`city: ${info.address.city}`);
+  console.log(`emails: ${info.emails}`);
 })
 
 
